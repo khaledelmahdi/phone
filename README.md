@@ -1,5 +1,8 @@
 # Elmahdi.Phone
 
+[![Nuget downloads](https://img.shields.io/nuget/v/elmahdiphone.svg)](https://www.nuget.org/packages/Elmahdi.Phone/)
+[![GitHub license](https://img.shields.io/github/license/khaledelmahdi/phone)](https://github.com/khaledelmahdi/phone)
+
 Simple and common phone extensions to format and validate phone numbers.
 
 ## Installation
@@ -7,7 +10,7 @@ Simple and common phone extensions to format and validate phone numbers.
 Available on [nuget]()
 
 ```
-PM> Install-Package Elmahdi.Phone
+PM> Install-Package Elmahdi.Phone -Version 1.0.0
 ```
 
 ## Usage
