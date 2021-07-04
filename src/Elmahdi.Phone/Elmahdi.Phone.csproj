@@ -2,11 +2,26 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <VersionPrefix>1.0.2</VersionPrefix>
+    <PackageId>Elmahdi.Phone</PackageId>
+    <Version>1.0.3</Version>    
+    <PackageVersion>1.0.3</PackageVersion>
+    <Authors>Khaled Elmahdi</Authors>
+    <Company>Elmahdi</Company>
+    <Title>Elmahdi.Phone</Title>
+    <Copyright>Copyright (c) 2021 Khaled Elmahdi</Copyright>
+    <Description>Simple and common phone extensions to format and validate phone numbers.</Description>    
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/khaledelmahdi/phone</RepositoryUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="libphonenumber-csharp" Version="8.12.26" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../icon.png" Pack="true" PackagePath="\"/>
+    <None Include="../../LICENSE.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
 </Project>
