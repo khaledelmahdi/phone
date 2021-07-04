@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Elmahdi.Phone</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <authors>Khaled Elmahdi</authors>
         <owners>Elmahdi</owners>
         <projectUrl>https://github.com/khaledelmahdi/phone</projectUrl>
@@ -10,4 +10,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Simple and common phone extensions to format and validate phone numbers.</description>
     </metadata>
+    <files>
+        <file src="icon.png" target="" />
+  </files>
 </package>
