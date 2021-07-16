@@ -11,7 +11,7 @@ Simple and common phone extensions to format and validate phone numbers.
 Available on [nuget]()
 
 ```
-PM> Install-Package Elmahdi.Phone -Version 1.0.0
+PM> Install-Package Elmahdi.Phone
 ```
 
 ## Usage
