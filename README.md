@@ -8,10 +8,14 @@ Simple and common phone extensions to format and validate phone numbers.
 
 ## Installation
 
-Available on [nuget]()
+Available on [nuget](https://www.nuget.org/packages/Elmahdi.Phone/)
 
 ```
-PM> Install-Package Elmahdi.Phone
+PM> Install-Package Elmahdi.Phone -Version 1.0.3
+```
+
+```
+> dotnet add package Elmahdi.Phone --version 1.0.3
 ```
 
 ## Usage
